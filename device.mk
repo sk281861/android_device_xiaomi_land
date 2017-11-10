@@ -251,7 +251,9 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
+    libqsap_sdk \
     libQWiFiSoftApCfg \
+    libwpa_client \
     libwcnss_qmi \
     hostapd \
     wpa_supplicant \
